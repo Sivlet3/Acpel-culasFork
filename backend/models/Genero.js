@@ -1,6 +1,6 @@
 const {Schema, model} = require('mongoose');
 
-const GeneroShema = Schema({
+const GeneroSchema = Schema({
     nombre: {
         type: String,
         required: [true, "El nombre del género es obligatorio"],
@@ -29,4 +29,4 @@ const GeneroShema = Schema({
     }
 });
 
-module.exports = model("Genero", GeneroShema);
+module.exports = model("Genero", GeneroSchema);

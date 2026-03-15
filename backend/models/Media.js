@@ -2,7 +2,7 @@ const {Schema, model} = require('mongoose');
 const Director = require('./Director');
 const Productora = require('./Productora');
 
-const MediaShema = Schema({
+const MediaSchema = Schema({
     serial: {
         type: Number,
         required: [true, "El serial de la media es obligatorio"],
@@ -62,4 +62,4 @@ const MediaShema = Schema({
     },
 });
 
-module.exports = model("Media", MediaShema);
+module.exports = model("Media", MediaSchema);

@@ -18,7 +18,7 @@ const createProductora = async (req = request, res = response) => {
 
         const productoraDB = await Productora.findOne({ nombreProductora});
         if (productoraDB) {
-            return res.status(400).json({ message: `La productora "${nombre}" ya existe` });
+            return res.status(400).json({ message: `La productora "${nombreProductora}" ya existe` });
         }
 
         const productora = new Productora({ nombreProductora, descripcion, slogan });

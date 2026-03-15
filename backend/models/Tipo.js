@@ -1,6 +1,6 @@
-const {Shema, model} = require('mongoose');
+const {Schema, model} = require('mongoose');
 
-const TipoShema = Schema({
+const TipoSchema = Schema({
     nombre: {
         type: String,
         required: [true, "El nombre del tipo es obligatorio"],
@@ -29,4 +29,4 @@ const TipoShema = Schema({
     }
 });
 
-module.exports = model("Tipo", TipoShema);
+module.exports = model("Tipo", TipoSchema);
