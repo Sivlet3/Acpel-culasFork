@@ -55,16 +55,7 @@ npm install
 ```
 
 3. **Configurar variables de entorno:**
-<<<<<<< HEAD
-Crear un archivo `.env` en la raíz del directorio `backend` basado en la plantilla `.env.template`:
-```bash
-cp .env.template .env
-```
-
-Luego editar el archivo `.env` con tus credenciales reales:
-=======
 Crear un archivo `.env` en la raíz del directorio `backend`:
->>>>>>> d576f0e (creacion de frontend, correcciones entre otros)
 ```env
 PORT=4000
 MONGO_URI=mongodb+srv://usuario:contraseña@cluster.mongodb.net/nombrebd?retryWrites=true&w=majority
@@ -95,18 +86,9 @@ backend/
 │   └── Genero.js               # Esquema y modelo de Género
 ├── routes/
 │   └── genero.js               # Rutas de géneros
-<<<<<<< HEAD
-├── .env.template               # Plantilla de variables de entorno
-├── .gitignore                  # Archivos ignorados por Git
-├── index.js                    # Punto de entrada de la aplicación
-├── package.json                # Configuración de npm
-├── package-lock.json           # Lockfile de dependencias
-└── README.md                   # Este archivo
-=======
 ├── index.js                    # Punto de entrada de la aplicación
 ├── package.json                # Configuración de npm
 └── Readme                      # Este archivo
->>>>>>> d576f0e (creacion de frontend, correcciones entre otros)
 ```
 
 ---
@@ -233,14 +215,6 @@ Content-Type: application/json
 
 ## 📝 Variables de Entorno
 
-<<<<<<< HEAD
-El proyecto incluye un archivo `.env.template` como plantilla. Para configurar las variables de entorno:
-
-1. Copiar la plantilla: `cp .env.template .env`
-2. Editar el archivo `.env` con tus credenciales reales
-
-=======
->>>>>>> d576f0e (creacion de frontend, correcciones entre otros)
 El archivo `.env` debe contener:
 
 ```env
@@ -251,22 +225,7 @@ PORT=4000
 MONGO_URI=mongodb+srv://usuario:password@cluster.mongodb.net/nombre_bd?retryWrites=true&w=majority
 ```
 
-<<<<<<< HEAD
-**Nota:** Nunca commits el archivo `.env` en el repositorio. Está incluido en `.gitignore` por seguridad.
-
----
-
-## 🔒 Seguridad
-
-El proyecto implementa las siguientes medidas de seguridad:
-
-- **Variables de entorno:** Las credenciales sensibles se almacenan en variables de entorno
-- **Archivo .gitignore:** Excluye archivos sensibles del control de versiones
-- **Validación de datos:** Validaciones robustas en modelos y controladores
-- **CORS configurado:** Control de acceso desde diferentes orígenes
-=======
 **Nota:** Nunca commits el archivo `.env` en el repositorio.
->>>>>>> d576f0e (creacion de frontend, correcciones entre otros)
 
 ---
 
@@ -326,17 +285,7 @@ Para reportar bugs o solicitar features, abre un issue en el repositorio.
 - ✅ Configuración de MongoDB Atlas
 - ✅ Implementación de endpoints para géneros
 - ✅ Documentación completa de API
-<<<<<<< HEAD
-- ✅ Configuración de variables de entorno con plantilla (.env.template)
-- ✅ Archivo .gitignore para seguridad
-- ✅ Estructura del proyecto optimizada
-
----
-
-**Última actualización:** 8 de marzo de 2026
-=======
 
 ---
 
 **Última actualización:** 6 de marzo de 2026
->>>>>>> d576f0e (creacion de frontend, correcciones entre otros)
